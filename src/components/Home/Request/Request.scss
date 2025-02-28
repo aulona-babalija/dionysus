@@ -1,0 +1,25 @@
+form{
+    background-color: #171314;
+}
+
+h2{
+    color: var(--main-color);
+}
+
+.request-div {
+    margin-top: 5vw;
+    background-image: url("../../../assets/parallax2.jpg");
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+  
+    /* Set a specific height */
+    // min-height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }

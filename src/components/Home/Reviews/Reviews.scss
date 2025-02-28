@@ -1,0 +1,71 @@
+.card {
+    width: 25%;
+    border: 1px solid var(--main-color);
+    border-radius: max(10px, 1vw);
+    background-color: #171314;
+    color: white;
+    // padding: max(20px, 2vw);
+    // height: max(190px, 16vw);
+
+    &:hover{
+        box-shadow: 0 0 10px var(--main-color);
+        border: 1px solid transparent;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+   
+
+    .header{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: max(20px, 2vw);
+    //   border-color: var(--main-color);
+      // border: 1px solid red;
+
+      .profile{
+          display: flex;
+          gap: max(10px, 1vw);
+          align-items: center;
+
+          .pic{
+              width: max(30px, 3vw);
+          }
+
+          .studentInfo{
+              .name{
+                  font-size: max(16px,1.1vw);
+                  @media(max-width: 390px){
+                      font-size: max(13px, 0.85vw);
+              }
+              .course{
+                  font-size: max(11px,.75vw);
+              }
+              }
+          }
+      }
+
+      .quotation{
+          color: var(--main-color);
+          font-size: max(30px, 3vw);
+          // border: 1px solid green;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+
+          @media(max-width: 390px){
+              font-size: max(20px, 2vw);
+          }
+      }
+    }
+
+    .comment{
+      margin-bottom: max(20px, 2vw);
+      font-size: max(14px,.85vw);
+    }
+
+    .date{
+      font-size: max(11px,.75vw);
+  
+    }
+  }
+  

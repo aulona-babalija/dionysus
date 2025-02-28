@@ -1,0 +1,40 @@
+.banner-right{
+    position: relative;
+}
+
+.sparkles{
+    content: url('../../../assets/sparkle.png');
+    position: absolute;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.banner-desc{
+    h2{
+        font-size: max(37px, 3.7vw);
+    font-weight: bolder;
+    line-height: 1.4;
+    margin: 0;
+    z-index: 2;
+    }
+    p{
+        font-size: max(15px, .95vw);
+        z-index: 2;
+    }
+}
+
+.banner-img{
+    z-index: 2;
+
+}
+// .banner-img:before {
+
+//     content: "";
+//     width: 50%;
+//     height: 50%;
+//     position: absolute;
+//     z-index: 1;
+//     bottom: 0;
+//     left: 0;
+//     background: var(--main-color) no-repeat 50%;
+// }
