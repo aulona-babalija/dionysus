@@ -20,7 +20,7 @@ const About = () => {
             and suggesting tailored main courses and wine pairings. Unlike a
             chatbot, Dionysus does not interact with guests. Instead, it
             functions as a precision tool, ensuring each dish and wine selection
-            aligns with the highest culinary standards.
+            aligns with the highest culinary.
           </p>
         </div>
         <div className="middle-img d-flex align-items-center justify-content-center flex-1" data-aos="zoom-in">
