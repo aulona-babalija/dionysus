@@ -4,7 +4,7 @@ import "./Request.scss";
 const Request = () => {
 return (
     <div id="request" className="request-div">
-            <div className="parallax2"></div>
+            <div className="lastimage"></div>
         <div className="content p-5 d-flex justify-content-center align-items-center">
         <form className="d-flex border rounded flex-column justify-content-center w-50 p-5" data-aos="fade-up">
         <h2 className="text-center">Request Demo</h2>
