@@ -4,7 +4,7 @@ import dining from "../../../assets/dining.jpg";
 
 const Situation = () => {
 return (
-    <div data-aos="fade-up">
+    <div data-aos="fade-up" className="situation">
         <h3 className="mt-5 mb-5 text-center parallax">“Experience how Dionysus enhances fine-dining collaboration.”</h3>
         <div className="content d-flex justify-content-between align-items-top mt-5 pt-4">
             <div className="left-side" data-aos="fade-right">

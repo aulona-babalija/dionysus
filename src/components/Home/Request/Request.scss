@@ -1,25 +1,59 @@
-form{
-    background-color: #171314;
+form {
+  background-color: #171314;
 }
 
-h2{
-    color: var(--main-color);
+h2 {
+  color: var(--main-color);
 }
 
 .request-div {
-    margin-top: 5vw;
-    background-image: url("../../../assets/Last Image.jpg");
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-  
-    /* Set a specific height */
-    // min-height: 200px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
+  margin-top: 5vw;
+  background-image: url("../../../assets/Last Image.jpg");
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
+  /* Set a specific height */
+  // min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 880px) {
+  .request-div {
+    .content {
+      padding: 3vh !important;
+
+      form {
+        width: 75% !important;
+      }
+    }
   }
+}
+@media (max-width: 645px) {
+  .request-div {
+    .content {
+      // padding: 0 !important;
+
+      form {
+        width: 90% !important;
+      }
+    }
+  }
+}
+@media (max-width: 645px) {
+  .request-div {
+    .content {
+      // padding: 0 !important;
+
+      form {
+        padding: 2vh !important;
+        width: 95% !important;
+      }
+    }
+  }
+}

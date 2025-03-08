@@ -27,14 +27,47 @@
     z-index: 2;
 
 }
-// .banner-img:before {
 
-//     content: "";
-//     width: 50%;
-//     height: 50%;
-//     position: absolute;
-//     z-index: 1;
-//     bottom: 0;
-//     left: 0;
-//     background: var(--main-color) no-repeat 50%;
-// }
+@media (max-width: 645px) {
+
+    .banner{
+        flex-direction: column;
+    }
+    .banner-desc {
+        h2 {
+            margin-left: 0 !important;
+            text-align: center;
+            font-size: 24px;
+        }
+        p {
+            margin-left: 0 !important;
+            text-align: center;
+
+            font-size: 12px;
+        }
+    }
+
+    .banner-right {
+        // width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+    }
+
+    .sparkles {
+        opacity: 0.3;
+    }
+
+    .banner-img {
+        display: flex
+;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            width: 100%;
+        }
+    }
+}

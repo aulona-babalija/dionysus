@@ -8,3 +8,18 @@
   filter: drop-shadow(5px 5px 5px #222);
     }
 }
+
+@media (max-width: 645px) {
+    .about-component{
+
+        .content{
+        flex-direction: column !important;
+        text-align: center !important;
+
+        .right-text{
+            text-align: center !important;
+            margin-top: 2vh !important;
+        }
+        }
+    }
+}

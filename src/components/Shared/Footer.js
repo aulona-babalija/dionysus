@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebookF, FaTiktok, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer mt-5 p-4 border-top ">
-      <div className="d-flex text-white justify-content-between align-items-center">
+      <div className="d-flex content text-white justify-content-between align-items-center">
         <div className="text-center">© 2025 Copyright: DIONYSUS</div>
 
         <div className="logo">

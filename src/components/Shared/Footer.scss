@@ -1,3 +1,12 @@
 .footer{
     background-color: #171314;
 }
+
+@media (max-width: 440px) {
+    .footer .content{
+        flex-direction: column-reverse !important;
+        .logo{
+            margin-bottom: 3vh !important;
+        }
+    }
+}
