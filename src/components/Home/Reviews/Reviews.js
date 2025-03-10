@@ -5,7 +5,7 @@ import { ImQuotesRight } from "react-icons/im";
 const Reviews = () => {
 return (
     <div id="reviews" className="reviews mt-5 mb-3" data-aos="fade-up">
-        <h2 className="text-center mb-5 fw-bold" style={{color: "var(--main-color)"}}>What they say about us</h2>
+        <h2 className="text-center mb-5 fw-bold" style={{color: "var(--main-color)"}}>Trusted by Many</h2>
         <div className="content d-flex justify-content-center align-items-center gap-5">
             <div className="card pt-5 pb-5 pe-2 ps-2" data-aos="fade-up">
                 <div className="header border-bottom pb-3">
