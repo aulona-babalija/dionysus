@@ -4,7 +4,7 @@ import "./HowItWorks.scss";
 const HowItWorks = () => {
 return (
     <div data-aos="fade-up" id="how" className="howitworks mt-5 mb-5 pt-3">
-        <h2 className="fw-bold text-center">How It Works</h2>
+        <h2 className="fw-bold text-center">How it Works</h2>
         <div data-aos="fade-up" className="content d-flex justify-content-around align-items-top mt-5"> 
             <div data-aos="fade-up" className="left-list">
                     <h4 className="fw-bold mb-4">For the Kitchen (Chef’s Process)</h4>
