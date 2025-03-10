@@ -14,19 +14,20 @@ return (
                         <p>Online reservations include a short preference form.</p>
                     </li>
                     <li data-aos="fade-up">
-                        <strong>Dionysus Analyzes & Suggests Dishes</strong>
-                        <p>AI scans preferences & recommends 2+ main courses.</p>
+                        <strong>Dionysus Analyzes Responses & Suggests Dishes</strong>
+                        <p>AI scans customer responses & recommends 3 main courses.</p>
                     </li>
                     <li data-aos="fade-up">
                         <strong>Chef Reviews & Accepts/Rejects Suggestions</strong>
                         <p>
-                            If accepted, wine pairing is automatically generated for the
-                            sommelier.
+                            If accepted, a shopping list of necessary ingredients
+                            is automatically generated, ensuring fresh
+                            ingredients are sourced before service.
                         </p>
                     </li>
                     <li data-aos="fade-up">
-                        <strong>Smart Shopping List is Created</strong>
-                        <p>Ensures fresh ingredients are sourced before service.</p>
+                        <strong>Wine Pairings are Suggested</strong>
+                        <p>Creates 1-2 wine pairing suggestions for the accepted dish.</p>
                     </li>
                 </ol>
             </div>
