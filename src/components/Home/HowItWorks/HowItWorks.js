@@ -21,8 +21,10 @@ return (
                         <strong>Chef Reviews & Accepts/Rejects Suggestions</strong>
                         <p>
                             If accepted, a shopping list of necessary ingredients
-                            is automatically generated, ensuring fresh
-                            ingredients are sourced before service.
+                            is automatically generated,
+                            <p>
+                                ensuring fresh ingredients are sourced before service.
+                            </p>
                         </p>
                     </li>
                     <li data-aos="fade-up">
